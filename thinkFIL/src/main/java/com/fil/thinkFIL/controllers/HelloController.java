@@ -16,6 +16,6 @@ public class HelloController {
 	
 	@RequestMapping("/hello2")
 	public String index2() {
-		return "hello2.jsp";
+		return "hello2";
 	}
 }
