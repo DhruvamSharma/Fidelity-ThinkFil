@@ -94,9 +94,9 @@
 				<!-- Grid column -->
 
 				<!-- Grid column -->
-				<div class="col-md-4 text-center">
-					<!--  <img class="img-fluid" src="https://mdbootstrap.com/img/Mockups/Transparent/Small/iphone-portfolio1.png" alt="Sample image"> -->
-					<h3>Our Logo and image goes here!</h3>
+				<div class="col-md-4 mask d-flex justify-content-center align-items-center">
+					  <!-- <img class="img-fluid mask" src="/resources/NavBar_Graphic.png" alt="Sample image">  -->
+					
 				</div>
 				<!-- Grid column -->
 

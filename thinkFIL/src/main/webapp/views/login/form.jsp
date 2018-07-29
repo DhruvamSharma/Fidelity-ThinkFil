@@ -26,6 +26,12 @@
 				<span class="bar"></span> <label>Password</label>
 			</div>
 
+			<!-- Btn-->
+			<button class="btn indigo" style="background-image:url('/resources/NavBar_Graphic.png');">
+				<span>Join the future</span><i class="material-icons"></i>
+
+			</button>
+
 		</form>
 	</div>
 

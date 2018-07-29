@@ -51,10 +51,10 @@
 
 		<!-- Full Page Intro -->
 		<div class="view"
-			style="background-image: url('http://mdbootstrap.com/img/Photos/Others/images/91.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+			style="background-image: url('/resources/BANNER.png'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
 			<!-- Mask & flexbox options-->
 			<div
-				class="mask rgba-gradient d-flex justify-content-center align-items-center">
+				class="mask d-flex justify-content-center align-items-center">
 				<!-- Content -->
 				<div class="container">
 					<!--Grid row-->
@@ -62,7 +62,7 @@
 						<!--Grid column-->
 						<div
 							class="col-md-6 mb-5 mt-md-0 mt-5 white-text text-center text-md-left">
-							<h1 class="h1-responsive font-weight-bold wow fadeInLeft material-icons"
+							<h1 class="h1-responsive font-weight-bold wow fadeInLeft"
 								data-wow-delay="0.3s">Start Asking and Solving!</h1>
 							<hr class="hr-light wow fadeInLeft" data-wow-delay="0.3s">
 							<h6 class="mb-3 wow fadeInLeft" data-wow-delay="0.3s">Lorem
@@ -70,18 +70,17 @@
 								repellendus quasi fuga nesciunt dolorum nulla magnam veniam
 								sapiente, fugiat! Commodi sequi non animi ea dolor molestiae,
 								quisquam iste, maiores. Nulla.</h6>
-
-							<!-- Btn-->
-							<button class="btn">
-								<span>Join the future</span><i class="material-icons"></i>
 								
-							</button>
+							
+							
 
 
 						</div>
 						<!--Grid column-->
 						<!--Grid column-->
 						<div class="col-md-6 col-xl-5 mb-4">
+						
+						
 						
 						<jsp:include page="/views/login/form.jsp"></jsp:include>
 						
