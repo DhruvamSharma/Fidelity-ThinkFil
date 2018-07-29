@@ -13,10 +13,6 @@ public class UserController {
 		return "/login/login";
 	}
 	
-	@PostMapping(path="/login")
-	public void postLogin() {
-		
-	}
 	
 	@GetMapping(path="/signup")
 	public String getSignupPage() {
