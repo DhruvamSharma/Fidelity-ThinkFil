@@ -20,6 +20,7 @@ public class UserController {
 	
 	@GetMapping(path="/signup")
 	public String getSignupPage() {
+		
 		return "/signup/signup";
 	}
 
