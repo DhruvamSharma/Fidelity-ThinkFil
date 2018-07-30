@@ -25,8 +25,15 @@ public class UserController {
 	@GetMapping(path="/login")
 	public String getLoginPage() {
 		System.out.println("login route found");
+<<<<<<< HEAD
 		return "login/login";
 	}
+=======
+		return "/login/login";
+	}
+	
+	
+>>>>>>> df8fd1230b4ea5b1c6eb9e7b96b5cfc03bb0e638
 	@GetMapping(path="/signup")
 	public String getSignUpPage(@ModelAttribute("user") User user) {
 		System.out.println("hello signup");
