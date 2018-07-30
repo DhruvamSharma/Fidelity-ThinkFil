@@ -20,7 +20,10 @@ public class User {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	private int corpId;
+	private int id;
+	@Column
+	private String userName;
+	
 	@Column
 	private String picture;
 	@Column
@@ -29,6 +32,7 @@ public class User {
 	private String password;
 	@Column
 	private int rewardPoint;
+	
 //	@OneToMany(fetch=FetchType.EAGER)
 //	@JoinColumn(name="corpId")
 //	private List<Question> questions=new ArrayList<>();
@@ -39,14 +43,38 @@ public class User {
 //	@JoinColumn(name="corpId")
 //	private List<Bookmark> bookmarks=new ArrayList<>();
 	
+	
 	public User() {
 		super();
 	}
-	public int getCorpId() {
-		return corpId;
+	public User(User user) {
+		this.userName=user.getUserName();
+		this.employeeName=user.getEmployeeName();
+		this.rewardPoint=user.getRewardPoint();
+		this.id=user.getId();
+		this.picture=user.getPicture();
+		this.password=user.getPassword();
+		// TODO Auto-generated constructor stub
+		
 	}
-	public void setCorpId(int corpId) {
-		this.corpId = corpId;
+	public String getPicture() {
+		return picture;
+	}
+	public void setPicture(String picture) {
+		this.picture = picture;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	private int getId() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	public String getUserName() {
+		return userName;
+	}
+	public void setUserName(String userName) {
+		this.userName = userName;
 	}
 	public String getEmployeeName() {
 		return employeeName;
